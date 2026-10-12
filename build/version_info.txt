@@ -1,0 +1,24 @@
+# PyInstaller version resource. Меняй CompanyName/ProductName под свою компанию —
+# именно это Windows показывает как «Издатель» в свойствах файла и рядом с подписью.
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f, flags=0x0, OS=0x40004, fileType=0x1, subtype=0x0, date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        '040904B0',
+        [StringStruct('CompanyName', 'Company IT'),
+         StringStruct('FileDescription', 'Remote Admin Agent — корпоративное удалённое администрирование'),
+         StringStruct('FileVersion', '1.0.0.0'),
+         StringStruct('InternalName', 'RemoteAdminAgent'),
+         StringStruct('LegalCopyright', 'Company IT'),
+         StringStruct('OriginalFilename', 'RemoteAdminAgent.exe'),
+         StringStruct('ProductName', 'Remote Admin Agent'),
+         StringStruct('ProductVersion', '1.0.0.0')])
+    ]),
+    VarFileInfo([VarStruct('Translation', [1033, 1200])])
+  ]
+)
